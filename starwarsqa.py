@@ -1,8 +1,7 @@
 import os
 import argparse
 from dotenv import load_dotenv
-from langchain_neo4j import Neo4jGraph
-from langchain.chains import GraphCypherQAChain
+from langchain_neo4j import Neo4jGraph, GraphCypherQAChain
 from langchain_openai import ChatOpenAI
 
 # Carrega variáveis de ambiente do arquivo .env
