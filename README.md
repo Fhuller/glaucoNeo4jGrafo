@@ -25,9 +25,9 @@ Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
 
 ```env
 # Neo4j
-NEO4J_URL=bolt://localhost:7687
+NEO4J_URL=neo4j+s://bd752129.databases.neo4j.io
 NEO4J_USER=neo4j
-NEO4J_PASS=sua_senha_aqui
+NEO4J_PASS=YLvT9I-usX5xBNGnZmM5ZSryALHXhMQbjFJLezsBGy0
 NEO4J_DATABASE=neo4j
 
 # OpenAI
